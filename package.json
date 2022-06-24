@@ -2,13 +2,20 @@
   "name": "index-file-generator",
   "displayName": "Index File Generator",
   "description": "Creates an index file next to other files in a directory",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.68.0"
   },
   "categories": [
     "Other"
   ],
+  "author": {
+    "name": "xafxafxaf",
+    "url": "https://github.com/xafxafxaf"
+  },
+  "repository": {
+    "url": "https://github.com/xafxafxaf/index-gen-ext"
+  },
   "activationEvents": [
     "onCommand:index-file-generator.generate"
   ],
@@ -29,6 +36,7 @@
       ]
     }
   },
+  "license": "MIT",
   "scripts": {
     "vscode:prepublish": "yarn run package",
     "compile": "webpack",
